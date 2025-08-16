@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#submitbutton{
+     
+    font-weight: bold;
+    color: black;
+    width:100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+   
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bixt{
+    display: flex;
+    flex-direction: column;
+ width: 100%;
+}
+.container-box{
+    display: flex;
+    flex-direction: row;
+}
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.form-control {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+ 
+#form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+}  
+/* Hide default placeholder in Chrome, Edge, Safari */
+input[type="datetime-local"]::placeholder {
+  color: transparent;
+}
+
+/* Hide in Firefox */
+input[type="datetime-local"]:-moz-placeholder {
+  color: transparent;
+}
+
+/* Hide in Internet Explorer/Edge Legacy */
+input[type="datetime-local"]:-ms-input-placeholder {
+  color: transparent;
+}
+
+ 
+
+
+ 
+
+ 
+
+
+ 
