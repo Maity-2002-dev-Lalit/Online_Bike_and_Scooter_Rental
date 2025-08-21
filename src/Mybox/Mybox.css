@@ -1,0 +1,47 @@
+.mybox {
+    display: flex;
+    gap: 10px;
+}
+
+.innerbox {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.716);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    cursor: pointer;
+}
+
+.innerbox p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.innerbox:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.automobile {
+    display: flex;
+    gap: 10px;
+    margin-top:24px;
+
+}
+.card{
+    border: 2px solid  rgba(135, 207, 235, 0.329);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px grey;
+    font-weight: bold;
+    
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+     font-weight: bold;
+}

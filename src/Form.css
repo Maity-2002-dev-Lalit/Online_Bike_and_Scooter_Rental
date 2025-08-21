@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.city-picker-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 20vh;
+  left: 2vw;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#city-input {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#inputbox {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.bigbox {
+  margin-top: 10px;
+}
+
+.error p {
+  font-size: 14px;
+  color: red;
+  margin-top: 6px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.city-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 10;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 80vh;
+  width: 90%;
+  max-width: 500px;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.city-card {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+
+.city-card img {
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+}
+
+.city-card p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rental {
+  /* position: absolute;
+  left: 35px;
+  padding: 0;
+  margin: 0;
+   font-family: "Roboto Condensed", sans-serif;
+   font-weight: bold; */
+  display: flex;
+  left: 35px;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  justify-content: space-between;
+
+
+}
+
+
+.imagess {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin-right: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+}
+.imagess::before,
+.imagess::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  transition-property: opacity;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2s;
+}
+.imagess::before {
+  background-image: url("https://cms.freedo.rentals/cms-static/Mobi_Kwik_Final_789dfad874.webp");
+  opacity: 1;
+}
+.imagess::after {
+  background-image: url("https://cms.freedo.rentals/cms-static/New_Refer_and_Earn_offer_2f8db25475.webp");
+  opacity: 0;
+}
+.imagess:hover::after {
+  opacity: 1;
+}

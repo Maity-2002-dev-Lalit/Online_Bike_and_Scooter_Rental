@@ -1,0 +1,84 @@
+/* .signin {
+  background: url('https://d2w184mfj9gts1.cloudfront.net/home/LOGIN+SCREEN_2.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin form {
+  background-color: rgba(255, 255, 255, 0.9);  
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  
+}
+
+.signin h3 {
+  font-weight: 700;
+  color: #333;
+}
+
+.signin .form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.signin .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.signin .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.signin .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+   
+}
+
+.signin .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.signin a {
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.signin a:hover {
+  color: #0056b3;
+  text-decoration: none;
+} */
+.signin {
+  background: url('https://images.pexels.com/photos/13323889/pexels-photo-13323889.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;  
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  
+  position: fixed;  
+  top: 0;
+  left: 0;
+}
+
+.signin form {
+  background-color: rgba(255, 255, 255, 0.9);  
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-height: 100vh;  
+  overflow-y: auto; 
+}
+
+ 
